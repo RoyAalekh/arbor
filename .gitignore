@@ -1,0 +1,39 @@
+# Rust-related ignores
+target/
+Cargo.lock
+
+# Python-related ignores
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+dist/
+build/
+*.egg-info/
+
+# Wheel files
+*.whl
+
+# Maturin build files
+.maturin/
+pip-wheel-metadata/
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+.DS_Store
+
+# Virtual environments
+.env/
+.venv/
+venv/
+
+# OS-specific files
+Thumbs.db
+ehthumbs.db
+*.db
+*.sqlite
+*.sublime-workspace

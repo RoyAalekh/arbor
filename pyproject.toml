@@ -1,0 +1,14 @@
+[build-system]
+requires = ["maturin>=1.0"]
+build-backend = "maturin"
+
+[project]
+name = "arbor-cli"
+version = "0.1.0"
+description = "A fast, cross-platform directory tree viewer"
+authors = [{ name = "RoyAalekh", email = "roy.aalekh@gmail.com" }]
+readme = "README.md"
+license = "MIT"
+
+[tool.maturin]
+bindings = "bin"
