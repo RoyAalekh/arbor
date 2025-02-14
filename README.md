@@ -16,12 +16,8 @@
 
 ## 🚀 **Installation**
 
-### **📚 Install via pip (Recommended)**
-Install **Arbor** directly from PyPI:
-```sh
-pip install arbor-cli
-```
-or install **directly from GitHub**:
+### 📚 Install **directly from GitHub**:
+
 ```sh
 pip install git+https://github.com/RoyAalekh/arbor.git
 ```
